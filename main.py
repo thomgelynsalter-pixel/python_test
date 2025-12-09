@@ -4,7 +4,6 @@ def in_autotests_we_trust(a, b):
     else:
         print('Test failed')
 
-in_autotests_we_trust(10, 10)
+in_autotests_we_trust(10, '10')
 
-in_autotests_we_trust(1, True)
-print ("Hello, world")
+in_autotests_we_trust(0, False)
